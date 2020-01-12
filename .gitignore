@@ -1,2 +1,6 @@
 ssh/
 etc-ansible/hosts
+.gitignore
+etc-ansible/ansible.cfg
+ssh/id_rsa*
+ssh/known_hosts
