@@ -11,5 +11,6 @@ RUN yum -y install openssh-clients.x86_64
 # Ansible User
 RUN adduser -ms /bin/bash ansible
 RUN mkdir /home/ansible/.ssh
+RUN chown -R ansible:ansible /home/ansible
 
 USER ansible
